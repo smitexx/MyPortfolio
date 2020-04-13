@@ -1,0 +1,36 @@
+body {
+    position: relative;
+}
+.welcome {
+    font-size: 3.5em;
+}
+.textoLuz{
+    color: blueviolet;
+    text-align: center;
+}
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+#popupGracias {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+@media (max-width: 576px) {
+    .welcome {
+        font-size: 2em;
+    }
+    .myName {
+        font-size: 1.5em;
+    }
+}
